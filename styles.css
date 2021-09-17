@@ -37,12 +37,19 @@
   margin: auto auto 10px;
 }
 
-Edited Logo Width, this affects
+/* Edited Logo Width, this affects Width  */
 .is-compact .portfolio-logo {
   height: 50px;
   width: 175px;
   margin-top: 7px;
 }
+
+/* Hover Effects  */
+.portfolio-logo:hover {
+  filter: invert(75%);
+  -webkit-filter: invert(75%);
+}
+
 
 .portfolio-navigation-row {
   background-color: rgba(0, 0, 0, 0.08);
