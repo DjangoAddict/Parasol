@@ -37,9 +37,10 @@
   margin: auto auto 10px;
 }
 
+Edited Logo Width, this affects
 .is-compact .portfolio-logo {
   height: 50px;
-  width: 50px;
+  width: 200px;
   margin-top: 7px;
 }
 
