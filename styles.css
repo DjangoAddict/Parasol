@@ -16,6 +16,24 @@
   font-weight: 300;
 }
 
+
+
+
+
+
+/* Navigation Text */
+.mdl-navigation__link {
+  font-size: 14px;
+  color: blue;
+  text-align: center;
+  font-weight: 300;
+}
+
+
+
+
+
+
 .is-compact .mdl-layout__title span {
   display: none;
 }
