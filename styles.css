@@ -20,8 +20,9 @@
   display: none;
 }
 
+/* Edited from 200px */
 .portfolio-logo-row {
-  min-height: 200px;
+  min-height: 220px;
 }
 
 .is-compact .portfolio-logo-row {
@@ -50,11 +51,11 @@
   -webkit-filter: invert(75%);
 }
 
-
+/* Edited from 45px */
 .portfolio-navigation-row {
   background-color: rgba(0, 0, 0, 0.08);
   text-transform: uppercase;
-  height: 45px;
+  height: 50px;
 }
 
 .portfolio-navigation-row  .mdl-navigation {
