@@ -25,6 +25,7 @@
 .mdl-navigation__link {
   font-size: 20px;
   color: rgb(105%, 0%, 0%);
+  background-color: white;
 /*   font-size: 14px; */
   text-align: center;
   font-weight: 300;
