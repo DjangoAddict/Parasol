@@ -11,13 +11,13 @@
 }
 
 
-/* EDITED background color  */
+
 .mdl-layout__title {
   font-size: 14px;
   color: white;
   text-align: center;
   font-weight: 300;
-  background-color: rgb(255,178,102);
+/*   background-color: rgb(255,178,102); */
 }
 
 
