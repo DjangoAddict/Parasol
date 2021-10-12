@@ -23,8 +23,8 @@
 
 /* Navigation Text */
 .mdl-navigation__link {
-  font-size: 14px;
-  color: blue;
+  font-size: 30px;
+/*   font-size: 14px; */
   text-align: center;
   font-weight: 300;
 }
