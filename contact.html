@@ -62,45 +62,9 @@
       
       
       
-<!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
-<form action='https://forms.zohopublic.com/parasol2/form/ContactForm/formperma/va5VZfl_5IYZDQaLQ3T6PiURC816KfpofQboI2LbVRA/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
-<input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
-<input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
-<input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
 
   
-<p></p>
   
-  
-<!--Name-->
-<label> 
-</label>
-<input type="text" maxlength="255" name="Name_First" fieldType=7 placeholder="" /><label>First</label>
-<input type="text" maxlength="255" name="Name_Last" fieldType=7 placeholder="" /><label>Last</label>
-  
-  
-<!--Email-->
-<label> Email 
-<em>*</em>
-</label>
-<input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="" />
-  
-  
-<!--Phone-->
-<label> Phone 
-</label>
-<input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="" />
-<label>Number</label>
-  
-<!--Multi Line-->
-<label> Message / Note 
-</label>
-<textarea name="MultiLine" maxlength="65535" placeholder="" ></textarea>
-<button type="submit"><em>Submit</em></button></form>
-      
-      
-      
-      
         <main class="mdl-layout__content">
             <div class="mdl-grid portfolio-max-width portfolio-contact">
                 <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
@@ -117,38 +81,48 @@
                         <p>
                             Excepteur reprehenderit sint exercitation ipsum consequat qui sit id velit elit. Velit anim eiusmod labore sit amet.
                         </p>
-                        <form action="#" class="">
-                          
-                          
-                          
+                        <form action='https://forms.zohopublic.com/parasol2/form/ContactForm/formperma/va5VZfl_5IYZDQaLQ3T6PiURC816KfpofQboI2LbVRA/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data' class="" >
+                        <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+
+                        <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+                        <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+                        <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
 
 
+              <p></p>
+
+                      <!--Name-->                              
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name">
+                                <label></label>
+                                <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name" maxlength="255" name="Name_First" fieldType=7 placeholder="" />
                                 <label class="mdl-textfield__label" for="Name">First Name...</label>
                                 <span class="mdl-textfield__error">Letters and spaces only</span>
-                            </div>
-                          
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name">
+                              
+                                <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name" maxlength="255" name="Name_Last" fieldType=7 placeholder="" />
                                 <label class="mdl-textfield__label" for="Name">Last Name...</label>
                                 <span class="mdl-textfield__error">Letters and spaces only</span>
                             </div>
                           
+                      
+                      <!--Email-->                        
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="Email">
-                                <label class="mdl-textfield__label" for="Email">Email...</label>
+                                <label> 
+                                </label>
+                                <input class="mdl-textfield__input" type="text" id="Email" maxlength="255" name="Email" value="" fieldType=9 placeholder="" />
+                                <label class="mdl-textfield__label" for="Email">Email<em>*</em></label>
                             </div>
-                          
+                             
+                      <!--Multi Line-->                          
+                            <label> Message / Note </label>
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <textarea class="mdl-textfield__input" type="text" rows="5" id="note"></textarea>
+                                <textarea class="mdl-textfield__input" type="text" rows="5" id="note" name="MultiLine" maxlength="65535" placeholder="" ></textarea>
                                 <label class="mdl-textfield__label" for="note">Enter note</label>
                             </div>
                           
                           
                             <p>
                                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
-                                    Submit
+                                    <em>Submit</em>
                                 </button>
                             </p>
                           
